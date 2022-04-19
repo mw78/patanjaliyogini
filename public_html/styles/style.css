@@ -1,7 +1,14 @@
-h1 {
-
-}
 
 .body {
-
+    font-family: Arial;
+    font-size: medium;
+    color: black;
+    display: block;
 }
+
+h1 {
+    font-weight: bold;
+}
+
+
+
