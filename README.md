@@ -38,3 +38,18 @@ Place your wireframe images in your milestone-2.html document. Image files must 
 
 After instructor sign-off on Milestone 2, you are clear to begin development on your PWP.
 
+
+**PWP Milestone Three**
+
+Purpose
+
+Milestone 3 is a mid-development check-in with your instructors. The goal is to show preliminary content, structure, and theming on your site.
+Objectives
+
+    Have a site with a clear layout and structure.
+    Establish clear theming and visual look for the site.
+    Demonstrate a plan for completing the remaining development.
+
+Milestone 3 Requirements
+
+You'll meet with your instructors one-on-one to discuss your development progress and any challenges you may be facing. These check-in appointments will be held during open work time.
