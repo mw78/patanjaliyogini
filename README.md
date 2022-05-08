@@ -1,5 +1,5 @@
-# patanjali-rio-rancho / patanjali-nm
-PWP www.patanjali-rio-rancho.com / www.patanjali-nm.com
+# Patanjali Yogini
+PWP www.patanjaliyogini.com
 
 
 **For Milestone-1:**
