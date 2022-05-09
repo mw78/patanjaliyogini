@@ -29,5 +29,9 @@
 }
 
 .index-image {
+    margin-top: 10px;
+}
 
+body {
+    background-color: navajowhite;
 }
