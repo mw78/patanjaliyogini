@@ -18,12 +18,9 @@
     background-color: lightblue;
     text-align: center;
     font-family: Papyrus;
-    font-size: x-large;
+    font-size: large;
     color: white;
-    padding-top: 25px;
-    padding-left: 55px;
-    padding-right: 55px;
-    margin: 55px;
+    padding: 25px;
 }
 
 .container-fluid-quote-2 {
@@ -32,17 +29,20 @@
 }
 
 .container-fluid-quote-2 .quote-2 {
-    float: right;
-    text-align: left;
+    text-align: center;
     font-family: Papyrus;
-    font-size: x-large;
+    font-size: large;
     color: black;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-fluid-quote-2 .image-fluid {
     float: left;
-    width: 55%;
-    height: 55%;
+    width: 50%;
+    height: 50%;
 }
 
 .top-section {
