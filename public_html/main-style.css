@@ -14,12 +14,14 @@
     font-size: 1.5em;
 }
 
-.container-quote {
+.container-fluid-quote {
     background-color: lightblue;
     text-align: center;
-    font-weight: bold;
-    font-style: italic;
-
+    font-family: Papyrus;
+    font-size: x-large;
+    color: white;
+    padding-top: 25px;
+    margin: 55px;
 }
 
 .top-section {
