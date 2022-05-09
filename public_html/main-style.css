@@ -1,0 +1,31 @@
+.navbar-expand-md .navbar-nav .nav-link {
+    color: darkorange;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.container-fluid {
+    padding: 25px;
+}
+
+.navbar-dark .navbar-brand {
+    color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.container-quote {
+    background-color: lightblue;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.top-section {
+    margin: auto;
+}
+
+.index-image {
+
+}
