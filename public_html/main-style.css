@@ -14,21 +14,31 @@
     font-size: 1.5em;
 }
 
-.container-fluid-quote {
+.container-fluid-quote-1 {
     background-color: lightblue;
     text-align: center;
     font-family: Papyrus;
     font-size: x-large;
     color: white;
     padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin: 55px;
+}
+
+.container-fluid-quote-2 {
+    background-color: seashell;
+    text-align: left;
+    font-family: Papyrus;
+    font-size: x-large;
+    color: black;
 }
 
 .top-section {
     margin: auto;
 }
 
-.index-image {
+.index-image .image-fluid{
     margin-top: 10px;
 }
 
