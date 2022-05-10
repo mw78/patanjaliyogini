@@ -4,7 +4,7 @@
     padding-right: 2rem;
 }
 .container-fluid {
-    padding: 10px;
+    padding: 1rem;
 }
 
 .navbar-dark .navbar-brand {
@@ -12,6 +12,7 @@
     font-weight: bold;
     font-style: italic;
     font-size: 1.5em;
+    padding-left: 2rem;
 }
 
 .container-fluid-quote-1 {
@@ -20,39 +21,58 @@
     font-family: Papyrus;
     font-size: large;
     color: white;
-    padding: 25px;
+    padding: 45px;
 }
 
 .container-fluid-quote-2 {
-    background-color: seashell;
+    background-color: navajowhite;
     margin: 55px;
-}
-
-.container-fluid-quote-2 .quote-2 {
-    text-align: center;
-    font-family: Papyrus;
-    font-size: large;
-    color: black;
-    margin: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.container-fluid-quote-2 .quote-2 {
+    font-family: Papyrus;
+    font-size: x-large;
+    color: black;
+    background-color: navajowhite;
+    text-align: center;
+    padding-right: 10%;
+    display: block;
+}
+
 .container-fluid-quote-2 .image-fluid {
     float: left;
-    width: 50%;
-    height: 50%;
+    width: 85%;
+    height: 85%;
 }
 
-.top-section {
-    margin: auto;
-}
+.index-image.image-fluid{
 
-.index-image .image-fluid{
-    margin-top: 10px;
 }
 
 body {
     background-color: navajowhite;
 }
+
+.container-fluid-quote-3 .image-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+    width: 95%;
+
+}
+
+.container-fluid-quote-3 .quote-3 {
+    font-family: Papyrus;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding-right: -550%;
+    position: absolute;
+    bottom: 16px;
+    right: 30px;
+}
+
