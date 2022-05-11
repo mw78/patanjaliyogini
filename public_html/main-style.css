@@ -88,5 +88,9 @@ body {
 
 .footer-container p {
     color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
     text-align: center;
+    padding: 1rem;
 }
