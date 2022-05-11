@@ -1,12 +1,21 @@
+/*Body background*/
+body {
+    background-color: navajowhite;
+}
+
+/*Navigation Bar container*/
+.container-fluid {
+    padding: 1rem;
+}
+
+/*Navigation Bar titles/links*/
 .navbar-expand-md .navbar-nav .nav-link {
     color: darkorange;
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.container-fluid {
-    padding: 1rem;
-}
 
+/*Navigation Bar brand: "Patanjali Yogini" title*/
 .navbar-dark .navbar-brand {
     color: darkorange;
     font-weight: bold;
@@ -15,6 +24,13 @@
     padding-left: 2rem;
 }
 
+/*index-image-1: Image-1 (Lord Ganesha)*/
+
+.index-image-1.image-fluid {
+    margin-top: 25rem;
+}
+
+/*Section-1: Quote-1 "Yoga Chittavritti Nirodha"*/
 .container-fluid-quote-1 {
     background-color: lightblue;
     text-align: center;
@@ -24,6 +40,7 @@
     padding: 45px;
 }
 
+/*Section-2*/
 .container-fluid-quote-2 {
     background-color: navajowhite;
     margin: 55px;
@@ -48,14 +65,7 @@
     height: 85%;
 }
 
-.index-image.image-fluid{
-
-}
-
-body {
-    background-color: navajowhite;
-}
-
+/*Section-3*/
 .container-fluid-quote-3 .image-fluid {
     position: relative;
     text-align: center;
@@ -76,3 +86,7 @@ body {
     right: 30px;
 }
 
+.footer-container p {
+    color: darkorange;
+    text-align: center;
+}
