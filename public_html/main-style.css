@@ -111,11 +111,11 @@ body {
 
 
 /*Section-5*/
-.section-5 .container-fluid {
+.section-5 .container-fluid .about-me {
     background-color: navajowhite;
 }
 
-.section-5 .container-fluid .rounded-circle {
+.section-5 .container-fluid .about-me .rounded-circle {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
