@@ -26,8 +26,8 @@ body {
 
 /*index-image-1: Image-1 (Lord Ganesha)*/
 
-.index-image-1.image-fluid {
-    margin: 15px;
+.index-image-1 .image-fluid .quote-3 {
+
 }
 
 /*Section-1: Quote-1 "Yoga Chittavritti Nirodha"*/
@@ -37,6 +37,7 @@ body {
     font-family: Papyrus;
     font-size: large;
     color: white;
+    font-weight: bold;
     padding: 45px;
 }
 
@@ -51,8 +52,9 @@ body {
 
 .container-fluid-quote-2 .quote-2 {
     font-family: Papyrus;
-    font-size: x-large;
+    font-size: large;
     color: black;
+    font-weight: bold;
     background-color: navajowhite;
     text-align: center;
     padding-right: 10%;
@@ -81,7 +83,7 @@ body {
     font-weight: bold;
     text-align: left;
     padding-right: -550%;
-    position: absolute;
+    position: relative;
     bottom: 16px;
     right: 30px;
 }
@@ -98,7 +100,18 @@ body {
     font-weight: bold;
     font-style: italic;
     font-size: 2.5em;
-    padding-top: 15px;
+}
+
+.section-4 .rounded-circle {
+    border: 3px solid white;
+    margin:auto;
+}
+
+.card {
+    min-height:300px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
 }
 
 .section-4 h2 {
@@ -109,44 +122,55 @@ body {
     font-size: 1.5em;
 }
 
+.section-4 p-1 {
+    color: darkorange;
+    font-weight: bold;
+}
 
 /*Section-5*/
-.section-5 .container-fluid .about-me {
+.section-5 .container-fluid {
     background-color: navajowhite;
 }
 
-.section-5 .container-fluid .about-me .rounded-circle {
+.section-5 .rounded-circle {
+    border: 3px solid white;
+    margin-top:15px;
+    margin-left:43%;
+    margin-bottom:15px;
+}
+
+.section-5 h1 {
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: block;
+    color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5em;
+    margin-top: 15px;
 }
 
-.section-5 .container-fluid .about-me .column-1 {
+.section-5 .column-1 {
     float: left;
-    width: 50%;
-    padding-left: 25px;
-    height: 250px;
-    padding-top: 50px;
-}
-
-.section-5 .container-fluid .about-me .column-2 {
-    float: left;
-    width: 50%;
-    padding-left: 25px;
-    padding-right: 25px;
-    height: 250px;
-    padding-top: 50px;
+    width: 30%;
+    padding-left: 5rem;
+    margin: auto;
 
 }
 
-/*.section-5 .about-me .column-3 {
+.section-5 .column-2 {
     float: left;
-    width: 25%;
-    padding-left: 25px;
-    height: 100px;
-    margin-right: 25px;
-}*/
+    width: 30%;
+    padding-left: 5rem;
+    margin: auto;
+
+}
+
+.section-5 .about-me .column-3 {
+    float: left;
+    width: 30%;
+    padding-left: 5rem;
+    margin: auto;
+
+}
 
 /*Section-6*/
 .section-6 .container-fluid {
@@ -160,6 +184,7 @@ body {
     font-style: italic;
     font-size: 2.5em;
     margin-top: 15px;
+    padding: 15px;
 }
 
 h1 {
@@ -170,6 +195,33 @@ h1 {
     font-size: 1.5em;
 }
 
+.section-6 .form-control {
+    width: 25%;
+}
+
+.section-6 .form-contact {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.section-6 .form-mantra {
+    margin-bottom: 0.5rem;
+}
+
+.section-6 .button-message {
+    margin-bottom: 15px;
+    background-color: darkorange;
+    color: white;
+}
+
+.section-6 .button-mantra {
+    margin-bottom: 15px;
+    background-color: darkorange;
+    color: white;
+}
+
+
+/*Footer Section*/
 .footer-container p {
     color: darkorange;
     font-weight: bold;
