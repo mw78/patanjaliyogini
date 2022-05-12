@@ -86,6 +86,14 @@ body {
     right: 30px;
 }
 
+/*Section-4*/
+.section-4 .conditioning {
+    width: 10%;
+    height: 10%;
+    display: flex;
+    float: left;
+}
+
 .footer-container p {
     color: darkorange;
     font-weight: bold;
