@@ -76,7 +76,7 @@ body {
 
 .container-fluid-quote-3 .quote-3 {
     font-family: Papyrus;
-    font-size: large;
+    font-size: x-large;
     color: white;
     font-weight: bold;
     text-align: left;
@@ -87,11 +87,72 @@ body {
 }
 
 /*Section-4*/
-.section-4 .conditioning {
-    width: 10%;
-    height: 10%;
-    display: flex;
+
+.section-4 h1 {
+    text-align: center;
+    color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+.section-4 h2 {
+    text-align: center;
+    color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.section-4 {
+    background-color: lightblue;
+}
+
+/*Section-5*/
+.section-5 {
+    background-color: navajowhite;
+    margin: 10px;
+}
+
+.section-5 .rounded-circle {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.section-5 .column-1 {
     float: left;
+    width: 50%;
+    padding-left: 500px;
+    height: 475px;
+}
+
+.section-5 .column-2 {
+    float: left;
+    width: 50%;
+    padding-left: 150px;
+    height: 475px;
+
+}
+
+/*Section-6*/
+.container-section-6 {
+    background-color: lightblue;
+}
+
+.greeting {
+    text-align: center;
+    color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5em;
+}
+
+h1 {
+    text-align: left;
+    color: darkorange;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
 }
 
 .footer-container p {
