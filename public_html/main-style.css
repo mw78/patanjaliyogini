@@ -13,6 +13,8 @@ body {
     color: darkorange;
     padding-left: 2rem;
     padding-right: 2rem;
+    font-family: "sans-serif";
+    font-weight: bold;
 }
 
 /*Navigation Bar brand: "Patanjali Yogini" title*/
@@ -24,47 +26,56 @@ body {
     padding-left: 2rem;
 }
 
-/*index-image-1: Image-1 (Lord Ganesha)*/
-
-.index-image-1 .image-fluid .quote-3 {
-
+/*Ganesha Image*/
+.img-fluid {
+    vertical-align: middle;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 /*Section-1: Quote-1 "Yoga Chittavritti Nirodha"*/
 .container-fluid-quote-1 {
     background-color: lightblue;
+}
+
+.container-fluid-quote-1 p {
     text-align: center;
-    font-family: Papyrus;
-    font-size: large;
-    color: white;
+    font-family: Abhya l;
     font-weight: bold;
-    padding: 45px;
+    color: white;
+    font-size: 1.5em;
+    display: block;
+    padding: 25px;
 }
 
 /*Section-2*/
-.container-fluid-quote-2 {
-    background-color: navajowhite;
-    margin: 55px;
+.section-2 {
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.container-fluid-quote-2 .quote-2 {
-    font-family: Papyrus;
-    font-size: large;
-    color: black;
-    font-weight: bold;
+    justify-content: center;
     background-color: navajowhite;
-    text-align: center;
-    padding-right: 10%;
-    display: block;
 }
 
-.container-fluid-quote-2 .image-fluid {
-    float: left;
-    width: 85%;
-    height: 85%;
+.image-section-2 {
+    flex-basis: 50%;
+}
+
+.image-section-2 .img-fluid {
+    float: right;
+}
+
+.section-2 img {
+    max-width: 100%;
+    padding: 50px;
+}
+
+.quote-3 {
+    text-align: center;
+    font-family: Abhya l;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    padding-left: 25px;
 }
 
 /*Section-3*/
@@ -73,23 +84,9 @@ body {
     text-align: center;
     color: white;
     width: 95%;
-
-}
-
-.container-fluid-quote-3 .quote-3 {
-    font-family: Papyrus;
-    font-size: x-large;
-    color: white;
-    font-weight: bold;
-    text-align: left;
-    padding-right: -550%;
-    position: relative;
-    bottom: 16px;
-    right: 30px;
 }
 
 /*Section-4*/
-
 .section-4 .container-fluid {
     background-color: lightblue;
 }
@@ -104,12 +101,14 @@ body {
 
 .section-4 .rounded-circle {
     border: 3px solid white;
-    margin:auto;
+    /*margin:auto;*/
+    margin-right: 20%;
+    margin-left: 10%;
 }
 
 .card {
     min-height:300px;
-    max-width: 400px;
+    max-width: 800px;
     display: flex;
     justify-content: center;
 }
