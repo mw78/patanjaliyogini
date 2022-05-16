@@ -35,7 +35,7 @@ $(document).ready(function(){
     submitHandler: (form) => {
         $('#contact').ajaxSubmit({
             type: 'Post',
-            url: $('#contact').attr('action'),
+            url: $('#form-contact').attr('action'),
             success: (ajaxOutput) => {
                 $('#output-area').css('display', '')
                 $('#output-area').html(ajaxOutput)

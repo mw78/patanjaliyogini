@@ -15,6 +15,8 @@
     <link rel="stylesheet type=text/css" href="main-style.css">
     <!-- Main Script file insert here:-->
     <script src="main-script.js"></script>
+    <!-- Form Script:-->
+    <script src="form-script.js"></script>
 
 </head>
 
@@ -262,21 +264,27 @@
     <h1 class="greeting">Namaste!</h1>
     <h1>ૐ Contact me here to inquire about classes:</h1>
 
+
         <div id="formContainer" class="container">
+            <form id="contact" action="./apis/" method="post" novalidate>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-contact">Your Name</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-                <label for="exampleFormControlInput1" class="form-contact">Your Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                <label for="exampleFormControlInput1" class="form-contact">Subject</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1">
+                <label for="name" class="form-contact">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                <label for="email" class="form-contact">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                <label for="subject" class="form-contact">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject">
             </div>
             <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
             </div>
             <button class="button-message">Submit Message</button>
             <br>
+            </form>
+
+
+        <div id="output-area"></div>
 
             <!--Weekly Mantra-->
             <h1>ૐ Sign up for a weekly mantra!</h1>
@@ -286,10 +294,10 @@
             </div>
             <button class="button-mantra">Receive Mantra</button>
         </div>
-    </div>
 </div>
 
-<div class="output-area"></div>
+
+
 
 <!--Sticky Footer-->
 <footer class="footer mt-auto p-3 bg-dark">

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bd23bfcb-4d82-455d-9c37-5aa3cca92597" name="patanjali-yogini" url="https://ddc-web-student.cnm.edu/~mwolf14/patanjali-yogini/">
+        <fileTransfer rootFolder="/home/mwolf14/public_html/patanjali-yogini" accessType="SFTP" host="ddc-web-student.cnm.edu" port="22" sshConfigId="318e804f-20b9-4704-b369-5d7b333fd958" sshConfig="mwolf14@ddc-web-student.cnm.edu:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
