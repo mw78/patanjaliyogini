@@ -4,7 +4,7 @@
   "description": "contact form",
   "main": "index.js",
   "scripts": {
-    "compile": "ts-node ./src/index.ts",
+    "compile": "ts-node index.ts",
     "dev": "./node_modules/nodemon/bin/nodemon.js -e ts  --exec \"npm run compile\"",
     "test": "echo \\\"Error: no src/test specified\\\" && exit 1",
     "clean": " standardx --fix --parser @typescript-eslint/parser --plugin @typescript-eslint/eslint-plugin **/*.ts",

@@ -15,7 +15,7 @@ $(document).ready(function(){
                 required: true,
             },
             message: {
-                require: true,
+                required: true,
                 maxlength: 2000
             }
         },
@@ -33,6 +33,7 @@ $(document).ready(function(){
         }
     },
     submitHandler: (form) => {
+            console.log('is this one?')
         $('#contact').ajaxSubmit({
             type: 'Post',
             url: $('#form-contact').attr('action'),
