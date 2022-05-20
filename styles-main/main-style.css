@@ -27,13 +27,32 @@ body {
 }
 
 /*Lord Ganesha Image "index-image-1"*/
-.img-fluid {
+.ganesha-section {
+    background-image: url(../images/yoga-is-samadhi-orange.png);
+    height: 950px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 8px double darkorange;
+}
+
+.ganesha-section h1 {
+    color: darkorange;
+    font-weight: bold;
+    text-align: right;
+    font-size: 4em;
+    padding-top: 12em;
+    padding-right: 2em;
+
+}
+/*.img-fluid {
     vertical-align: middle;
     box-sizing: border-box;
     max-width: 100%;
     border-bottom: 8px double darkorange;
     border-top: 8px darkorange;
-}
+}*/
 
 /*Section-1: Quote-1 "Yoga Chittavritti Nirodha"*/
 .container-fluid-quote-1 {
