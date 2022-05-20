@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="bd23bfcb-4d82-455d-9c37-5aa3cca92597" name="patanjali-yogini" url=" https://ddc-web-student.cnm.edu/~mwolf14/patanjali-yogini/">
-        <fileTransfer rootFolder="/home/mwolf14/public_html/patanjali-yogini" accessType="SFTP" host="ddc-web-student.cnm.edu" port="22" sshConfigId="318e804f-20b9-4704-b369-5d7b333fd958" sshConfig="mwolf14@ddc-web-student.cnm.edu:22 agent" authAgent="true">
+        <fileTransfer rootFolder="/home/mwolf14/patanjali-yogini" accessType="SFTP" host="138.68.252.34" port="22" sshConfigId="79ce220d-4e24-4d53-b612-bffd9c51bc7e" sshConfig="mwolf14@138.68.252.34:22 agent" authAgent="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

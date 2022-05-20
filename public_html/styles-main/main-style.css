@@ -52,7 +52,7 @@ body {
     background-color: lightblue;
     width: 100%;
     border-top: 8px dotted darkorange;
-    border-bottom: 8px dotted darkorange;
+    border-bottom: 8px double darkorange;
 }
 
 .container-fluid-quote-1 p {
@@ -67,63 +67,11 @@ body {
 }
 
 /*Section-2 "India" image and quote-2*/
-.section-2 .carousel {
+.d-block {
     background-color: navajowhite;
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
-
-/*.section-2 .img-fluid {
-    padding: 50px;
-}*/
-
-/*.image-section-2 {
-    flex-basis: 50%;
-}
-
-.image-section-2 .img-fluid {
-    float: right;
-}
-
-.section-2 img {
-    max-width: 100%;
-    padding: 50px;
-}*/
-
-/*.section-2 quote-2 {
-    text-align: center;
-    font-family: Abhya l;
-    font-weight: bold;
-    color: black;
-    font-size: 2.5em;
-    padding: 55px;
-}*/
-
-/*Section-3 "oil-lamp" image and quote-3*/
-/*.container-fluid-quote-3 .image-fluid {
-    text-align: center;
-    color: white;
-    width: 95%;
-}
-
-.section-3 .quote-3 {
-    text-align: center;
-    font-family: Abhya l;
-    font-weight: bold;
-    color: black;
-    font-size: 1.5em;
-    padding-left: 25px;
-}
-
-.section-3 .oil-lamp {
-    flex: left;
-}
-
-.section-3 {
-    border-top: 8px dotted darkorange;
-    border-bottom: 8px double darkorange;
-    background-color: lightblue;
-}*/
 
 /*Section-4*/
 .section-4 {
@@ -131,11 +79,6 @@ body {
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
-
-/*.section-4 .container-fluid {
-    background-color: lightblue;
-    border-top: 8px double darkorange;
-}*/
 
 .section-4 h1 {
     text-align: center;
@@ -176,6 +119,7 @@ body {
     font-weight: bold;
     text-align: center;
 }
+
 /*Section-5*/
 .section-5 .container-fluid {
     background-color: navajowhite;
