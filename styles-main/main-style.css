@@ -26,9 +26,9 @@ body {
     padding-left: 2rem;
 }
 
-/*Lord Ganesha Image "index-image-1"*/
+/*Lord Ganesha Section Parallax*/
 .ganesha-section {
-    background-image: url(../images/yoga-is-samadhi-orange.png);
+    background-image: url(../images/Ganesha.jpg);
     height: 950px;
     background-attachment: fixed;
     background-position: center;
@@ -43,23 +43,16 @@ body {
     text-align: right;
     font-size: 4em;
     padding-top: 12em;
-    padding-right: 2em;
-
+    padding-right: 1em;
+    font-style: italic;
 }
-/*.img-fluid {
-    vertical-align: middle;
-    box-sizing: border-box;
-    max-width: 100%;
-    border-bottom: 8px double darkorange;
-    border-top: 8px darkorange;
-}*/
 
 /*Section-1: Quote-1 "Yoga Chittavritti Nirodha"*/
 .container-fluid-quote-1 {
     background-color: lightblue;
     width: 100%;
     border-top: 8px dotted darkorange;
-    border-bottom: 8px double darkorange;
+    border-bottom: 8px dotted darkorange;
 }
 
 .container-fluid-quote-1 p {
@@ -71,15 +64,18 @@ body {
     display: block;
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
 /*Section-2 "India" image and quote-2*/
-.section-2 {
-    justify-content: center;
+.section-2 .carousel {
     background-color: navajowhite;
     border-top: 8px dotted darkorange;
+    border-bottom: 8px double darkorange;
 }
+
+/*.section-2 .img-fluid {
+    padding: 50px;
+}*/
 
 /*.image-section-2 {
     flex-basis: 50%;
@@ -94,22 +90,17 @@ body {
     padding: 50px;
 }*/
 
-.section-2 {
-    background-color: navajowhite;
-    border-bottom: 8px double darkorange;
-}
-
-.quote-2 {
+/*.section-2 quote-2 {
     text-align: center;
     font-family: Abhya l;
     font-weight: bold;
     color: black;
     font-size: 2.5em;
     padding: 55px;
-}
+}*/
 
 /*Section-3 "oil-lamp" image and quote-3*/
-.container-fluid-quote-3 .image-fluid {
+/*.container-fluid-quote-3 .image-fluid {
     text-align: center;
     color: white;
     width: 95%;
@@ -132,11 +123,11 @@ body {
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
     background-color: lightblue;
-}
+}*/
 
 /*Section-4*/
 .section-4 {
-    background-color: navajowhite;
+    background-color: lightblue;
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
@@ -187,7 +178,7 @@ body {
 }
 /*Section-5*/
 .section-5 .container-fluid {
-    background-color: lightblue;
+    background-color: navajowhite;
     border-bottom: 8px double darkorange;
     border-top: 8px dotted darkorange;
 }
@@ -219,7 +210,7 @@ a {
 }
 /*Section-6*/
 .section-6 {
-    background-color: navajowhite;
+    background-color: lightblue;
     border-top: 8px dotted darkorange;
 }
 
