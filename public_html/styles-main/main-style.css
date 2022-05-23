@@ -27,7 +27,8 @@ body {
 }
 
 /*Lord Ganesha Section Parallax*/
-.ganesha-section {
+/*@media only screen and (max-device-width: 1366px) {*/
+    .ganesha-section {
     background-image: url(../images/Ganesha.jpg);
     height: 950px;
     background-attachment: fixed;
@@ -35,7 +36,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 8px double darkorange;
-}
+    }
+/*}*/
 
 .ganesha-section h1 {
     color: darkorange;
@@ -91,13 +93,13 @@ body {
 .section-4 .rounded-circle {
     border: 3px solid white;
     /*margin:auto;*/
-    margin-right: 20%;
-    margin-left: 10%;
+    margin-right: 15px;
+    margin-left: 5px;
 }
 
 .card {
     min-height:300px;
-    max-width: 800px;
+    max-width: 300px;
     display: flex;
     justify-content: center;
 }
