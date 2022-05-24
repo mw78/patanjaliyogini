@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 
@@ -9,17 +9,16 @@
     <meta name="author" content="Mirjam Wolf">
     <title>PWP - Patanjali ૐ Yogini</title>
 
-    <!-- Bootstrap 5.2 core CSS insert here:-->
+    <!-- Bootstrap core CSS insert here:-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <!-- Main CSS Stylesheet insert here:-->
     <link rel="stylesheet type=text/css" href="styles-main/main-style.css">
-    <!-- Main Script file insert here:-->
-    <script src="scripts/main-script.js"></script>
-    <!-- Form Script:-->
-    <script src="scripts/form-script.js"></script>
 
 </head>
 <body>
+
+<div id="wrapper">
 <!--Navbar section-->
 <nav class="navbar navbar-expand-md navbar-dark p-3 bg-dark">
     <div class="container-fluid">
@@ -40,7 +39,7 @@
 </nav>
 
 <!--Lord Ganesha Section Parallax-->
-<div class="ganesha-section">
+<div id="ganesha-section" class="parallax">
     <div class="top-heading">
         <h1>Yoga is Samadhi</h1>
     </div>
@@ -57,142 +56,88 @@
 
 <!--Section-2 "India" image and quote-2-->
 <section-2>
-    <container>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="images/1.png" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="images/2.png" alt="Second slide">
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            </a>
-        </div>
-    </container>
+  <div class="row">
+      <div class="column">
+          <img src="images/india-birds.jpg" alt="India" style="width: 100%">
+      </div>
+      <div class="column">
+         <img src="images/quote-2.png" style="width: 100%">
+      </div>
+  </div>
 </section-2>
 
-<!--Section 4-->
-<div class="section-4">
+<!--Section 3-->
+<div class="section-3">
     <div class="container">
-        <div class="row">
+        <div class="row gy-4">
             <h1>Sequence</h1>
-            <div class="col-md-6 py-4">
-                <img src="images/conditioning.jpg" class="rounded-circle float" alt="conditioning" width="300" height="300">
-            </div>
-                <div class="col-md-6 pt-4 px-2 rounded border border-white bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                    <h2>1. Conditioning</h2>
-                    <p-1>ૐ</p-1>
-                    <p>Conditioning is a method that helps to increase focus and concentration. It is often done
-                        guided with the instructor or guru reciting a prayer.</p>
+            <div class="col-12 col-md-6 col-md-4 text-center">
+                <div class="card h-100">
+                    <img src="images/conditioning.jpg" class="card-img-top" alt="Conditioning">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bold">Conditioning</h1>
+                        <h1>ૐ</h1>
+                        <p class="card-text">Conditioning is a method that helps to increase focus and concentration. It is often done guided with the instructor or guru reciting a prayer.</p>
+                    </div>
                 </div>
-
-
-            <div class="col-md-6">
-                <img src="images/hastapadasana.jpg" class="rounded-circle float" alt="asanas" width="300" height="300">
+             </div>
+            <div class="col-12 col-md-6 col-md-4 text-center">
+                <div class="card h-100">
+                    <img src="images/hastapadasana.jpg" class="card-img-top" alt="Asanas">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bold">Asanas</h1>
+                        <h1>ૐ</h1>
+                        <p class="card-text">The Asanas I am certified to teach are taken from traditional Hatha Yoga. They are chosen based on the overall directional stretch of the spine and are beginner friendly. They can be easily adjusted to match more difficult variations.</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-6 pt-4 px-2 rounded border border-white bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                <h2>2. Asanas</h2>
-                <p-1>ૐ</p-1>
-                <p>The Asanas I am certified to teach are taken from traditional Hatha Yoga. They are chosen based on the overall directional stretch of the spine and are beginner friendly. They can be easily adjusted to match more difficult variations.</p>
+            <div class="col-12 col-md-6 col-md-4 text-center">
+                <div class="card h-100">
+                    <img src="images/pranayama.jpg" class="card-img-top" alt="Pranayamas">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bold">Pranayamas</h1>
+                        <h1>ૐ</h1>
+                        <p class="card-text">Pranayams or Pranayamas are breathing exercises to increase the capacity of your lungs and help with oxygen and blood flow. Depending on individual conditions there are special varieties that can aid in overall balance of the system. There are also Pranayams that are safe for everyone to practice, i.e. Brahmari.</p>
+                    </div>
+                </div>
             </div>
-
-
-            <div class="col-md-6">
-                <img src="images/pranayama.jpg" class="rounded-circle float" alt="pranayamas" width="300" height="300">
-            </div>
-            <div class="col-md-6 pt-4 px-2 rounded border border-white bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                <h2>3. Pranayamas</h2>
-                <p-1>ૐ</p-1>
-                <p>Pranayams or Pranayamas are breathing exercises to increase the capacity of your lungs and help with oxygen and blood flow. Depending on individual conditions there are special varieties that can aid in overall balance of the system. There are also Pranayams that are safe for everyone to practice, i.e. Brahmari.</p>
-            </div>
-
-
-            <div class="col-md-6">
-                <img src="images/shavasana.jpg" class="rounded-circle float" alt="meditation" width="300" height="300">
-            </div>
-            <div class="col-md-6 pt-4 px-2 rounded border border-white bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                <h2>4. Meditation</h2>
-                <p-1>ૐ</p-1>
-                <p>Every Yoga session should finish with mindful relaxation. This is often achieved through Shavasana ("The Corpse Pose"). Similar to conditioning at the beginning of each session, you can finish with a prayer or simply by chanting Aum.</p>
+            <div class="col-12 col-md-6 col-md-4 text-center">
+                <div class="card h-100">
+                    <img src="images/shavasana.jpg" class="card-img-top" alt="Shavasana">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bold">Meditation</h1>
+                        <h1>ૐ</h1>
+                        <p class="card-text">Every Yoga session should finish with mindful relaxation. This is often achieved through Shavasana ("The Corpse Pose"). Similar to conditioning at the beginning of each session, you can finish with a prayer or simply by chanting Aum.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-            <!--<div class="col-md-12 py-4 d-flex align-items-center">
-                <img src="images/hastapadasana.jpg" class="rounded-circle float" alt="conditioning" width="300" height="300">
-                <div class="rounded border border-white p-3 bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                    <h2>2. Asanas</h2>
-                    <p-1>ૐ</p-1>
-                    <p>The Asanas I am certified to teach are taken from traditional Hatha Yoga. They are chosen based on the overall directional stretch of the spine and are beginner friendly. They can be easily adjusted to match more difficult variations.</p>
-                </div>
-            </div>
 
-            <div class="col-md-12 py-4 d-flex align-items-center">
-                <img src="images/pranayama.jpg" class="rounded-circle" alt="conditioning" width="300" height="300">
-                <div class="rounded border border-white p-3 bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                    <h2>3. Pranayamas</h2>
-                    <p-1>ૐ</p-1>
-                    <p>Pranayams or Pranayamas are breathing exercises to increase the capacity of your lungs and help with oxygen and blood flow. Depending on individual conditions there are special varieties that can aid in overall balance of the system. There are also Pranayams that are safe for everyone to practice, i.e. Brahmari.</p>
-                </div>
-            </div>
-
-            <div class="col-md-12 py-4 d-flex align-items-center">
-                <img src="images/shavasana.jpg" class="rounded-circle" alt="conditioning" width="300" height="300">
-                <div class="rounded border border-white p-3 bg-light text-center mt-4 mb-4 mx-4 h-auto card">
-                    <h2>4. Meditation</h2>
-                    <p-1>ૐ</p-1>
-                    <p>Every Yoga session should finish with mindful relaxation. This is often achieved through Shavasana ("The Corpse Pose"). Similar to conditioning at the beginning of each session, you can finish with a prayer or simply by chanting Aum.</p>
-                </div>
-            </div>
-        </div>
+<!--Section-4: About Me-->
+<div class="section-4">
+    <div class="container-fluid>
+    <img src="images/mirjam.jpg" class="rounded-circle" alt="Mirjam" width="250" height="250">
+    <h1>About Me</h1>
+    <div class="about-me">
+        <p>My love for Yoga did not develop overnight, it took me a few years to get into it. Meditation and my love for Indian culture and philosophy made me want to learn more about Yogic Philosophy and the traditional forms of Yoga. It was very important to me to be taught by Indian teachers because I was looking to learn things that go beyond the practice of Asanas.</p>
+        <p>During my research I found out about The Yoga Institute Santacruz, Mumbai. The Yoga Institute Mumbai is the oldest accredited Yoga school in the world. The current guru, Dr. Hansaji Yogendra, wife of the late Dr. Yogendra, had an influential role in the formulation of a formal syllabus for Yoga schools across the world. To this day she remains one of India's most influential experts in the field of Yoga. I thoroughly enjoyed my learning experience with my Indian teachers and "batch mates". I miss them dearly. We still message each other or meet up via Zoom to practice together.</p>
+        <p>The sequence that I follow is the sequence that I learned from my Indian teachers. I was also trained in Kriyas and Pranayamas which I practice. The Asanas that I am certified to teach are traditional and safe beginners friendly Asanas taken from Hatha Yoga. If you are interested in learning about Yogic Philosophy and techniques that go beyond obscure Asanas performed by Western celebrities, I suggest you check out their website.</p><br>
+        <p>Where I got certified as RYT 200: The Yoga Institute Santacruz, Mumbai.</p>
+        <p>Find out more about my accredited Yoga school here:</p>
+        <a href="https://theyogainstitute.org/">The Yoga Institute Mumbai Website</a><br>
+        <a href="https://www.youtube.com/watch?v=jwDhDbeShQw&t=8s/">YouTube Video on The Yoga Institute</a>
     </div>
-</div>-->
-
-<!--Section-5: About Me-->
-<div class="section-5">
-    <div class="container-fluid">
-        <img src="images/mirjam.jpg" class="rounded-circle" alt="Mirjam" width="250" height="250">
-        <h1>About Me</h1>
-        <div class="about-me">
-            <p>My love for Yoga did not develop overnight, it took me a few years to get into it. Being someone who used
-                to enjoy running a lot, I found it rather difficult to sit down on a mat and do Asanas. However, after
-                giving it another try, I was astounded by the results that I got from practicing Kundalini Yoga.
-                Kundalini Yoga opened up the door to meditation and my love for Indian culture and philosophy. I wanted
-                to learn more about Yogic Philosophy and traditional forms of Yoga and I wanted to learn from Indian
-                teachers. </p><br>
-            <p>After being in lockdown for such a long period, it gave me the opportunity to look inward but also do
-                some research. The Yoga Institute Santacruz, Mumbai is the oldest accredited Yoga school in the world.
-                The current guru, Dr. Hansaji Yogendra, wife of the late Dr. Yogendra, had an influential role in the
-                formulation of a formal syllabus for Yoga schools across the world. To this day she is one of India's
-                most influential experts in the field of Yoga. I thoroughly enjoyed my learning experience with my
-                Indian teachers and "batch mates". I miss them dearly. We still message each other or meet up via Zoom
-                to practice together.</p><br>
-            <p>The sequence that I follow is the sequence that I learned from my Indian teachers. I was also trained in
-                Kriyas and Pranayamas which I practice. Although I practice Kundalini yoga, I do not teach it. The
-                asanas that I am certified to teach are traditional and safe beginners friendly asanas taken from Hatha
-                Yoga. If you are interested in learning about Yogic Philosophy and techniques that go beyond obscure
-                asanas performed by Western celebrities, I suggest you check out their website.</p><br>
-             <p>Where I got certified as RYT 200: The Yoga Institute Santacruz, Mumbai.</p>
-             <p>Find out more about my accredited Yoga school here:</p>
-             <a href="https://theyogainstitute.org/">The Yoga Institute Mumbai Website</a><br>
-             <a href="https://www.youtube.com/watch?v=jwDhDbeShQw&t=8s/">YouTube Video on The Yoga Institute</a>
-        </div>
     </div>
 </div>
 
-<!--Section-6: Contact Form & Weekly Mantra Sign Up-->
+<!--Section-5: Contact Form & Weekly Mantra Sign Up-->
 <!--Contact Form-->
-<div class="section-6">
+<div class="section-5">
     <h1 class="greeting">Namaste!</h1>
     <h1>ૐ Contact me here to inquire about classes:</h1>
-
 
         <div id="formContainer" class="container">
             <form action="./apis/" id="contact" method="post" novalidate>
@@ -218,13 +163,13 @@
         <div id="output-area"></div>
 
             <!--Weekly Mantra-->
-            <h1>ૐ Sign up for a weekly mantra!</h1>
+           <!-- <h1>ૐ Sign up for a weekly mantra!</h1>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-mantra">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <button class="button-mantra">Receive Mantra</button>
-        </div>
+        </div>-->
 </div>
 
 <!--Sticky Footer-->
@@ -233,28 +178,25 @@
         <p>Patanjali ૐ Yogini</p>
     </div>
 </footer>
-
-<!--Popper-->
+</div>
+<!--Popper and Bootstrap Script Link insert here-->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
-<!-- Script from Bootstrap 5.2. insert here (at the bottom of body after Popper):-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-<!--JQuery min., Form, Validate, additional methods -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-<script crossorigin="anonymous" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-<script crossorigin="anonymous" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-<script crossorigin="anonymous" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+<!--JQuery min., Form, Validate, additional methods insert here-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+<script crossorigin="anonymous" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA=" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script crossorigin="anonymous" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A=" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script crossorigin="anonymous" integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ=" src="https://cdnjs.cloudflar.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 <!--Recaptcha-->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-<!--Custom jquery script-->
+<!--Custom jquery script insert here-->
 <script src="scripts/form-script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
 </body>
 

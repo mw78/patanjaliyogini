@@ -3,6 +3,16 @@ body {
     background-color: navajowhite;
 }
 
+div#wrapper {
+    border-left: 8px solid darkorange;
+    border-right: 8px solid darkorange;
+    width: 1400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffebcc;
+}
+
 /*Navigation Bar container*/
 .container-fluid {
     padding: 1rem;
@@ -27,8 +37,8 @@ body {
 }
 
 /*Lord Ganesha Section Parallax*/
-/*@media only screen and (max-device-width: 1366px) {*/
-    .ganesha-section {
+@media screen and (min-width: 480px) {
+    .parallax {
     background-image: url(../images/Ganesha.jpg);
     height: 950px;
     background-attachment: fixed;
@@ -37,14 +47,14 @@ body {
     background-size: cover;
     border-bottom: 8px double darkorange;
     }
-/*}*/
+}
 
-.ganesha-section h1 {
+.top-heading h1 {
     color: darkorange;
     font-weight: bold;
     text-align: right;
-    font-size: 4em;
-    padding-top: 12em;
+    font-size: 2.5em;
+    padding-top: 18em;
     padding-right: 1em;
     font-style: italic;
 }
@@ -69,42 +79,52 @@ body {
 }
 
 /*Section-2 "India" image and quote-2*/
-.d-block {
-    background-color: navajowhite;
+.column {
+    float: left;
+    width: 50%;
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
 
-/*Section-4*/
-.section-4 {
+p {
+    text-align: center;
+    font-family: Abhya l;
+    font-weight: bold;
+    color: darkorange;
+    font-size: 2em;
+    font-style: italic;
+    display: block;
+    margin: 65px;
+}
+
+/* Clearfix*/
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+"quote-2.png" {
+    padding-right: 15px;
+}
+
+/*Section-3*/
+.section-3 {
     background-color: lightblue;
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
 
-.section-4 h1 {
+.section-3 h1 {
     text-align: center;
     color: darkorange;
     font-weight: bold;
     font-style: italic;
-    font-size: 2.5em;
+    font-size: 1.5em;
+    padding-top: 15px;
 }
 
-.section-4 .rounded-circle {
-    border: 3px solid white;
-    /*margin:auto;*/
-    margin-right: 15px;
-    margin-left: 5px;
-}
-
-.card {
-    min-height:300px;
-    max-width: 300px;
-    display: flex;
-    justify-content: center;
-}
-
-.section-4 h2 {
+.section-3 h5 {
     text-align: center;
     color: darkorange;
     font-weight: bold;
@@ -112,55 +132,58 @@ body {
     font-size: 1.5em;
 }
 
-.section-4 p {
-    color: black;
+.card-img-top {
+    width: auto;
+    height: auto;
 }
 
-.section-4 p-1 {
-    color: darkorange;
-    font-weight: bold;
+.card {
+    box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+    height:498px;
+    width: 449.2px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text {
     text-align: center;
+    color: black;
+    font-size: 1em;
+    margin: auto;
+    font-family: sans-serif;
 }
 
-/*Section-5*/
-.section-5 .container-fluid {
+/*Section-4*/
+.section-4 .container-fluid {
     background-color: navajowhite;
     border-bottom: 8px double darkorange;
     border-top: 8px dotted darkorange;
+    text-align: center;
 }
 
-.section-5 .rounded-circle {
+.section-4 .rounded-circle {
     border: 3px solid white;
     margin-top:15px;
-    margin-left:43%;
-    margin-bottom:15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.section-5 h1 {
-    text-align: center;
-    color: darkorange;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 2.5em;
-    margin-top: 15px;
-}
-
-.section-5 .about-me p {
+.section-4 .about-me p {
     text-align: center;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-a {
-    text-align: center;
-}
-/*Section-6*/
-.section-6 {
+/*Section-5*/
+.section-5 {
     background-color: lightblue;
     border-top: 8px dotted darkorange;
 }
 
-.section-6 .container-fluid .greeting {
+.section-5 .container-fluid .greeting {
     text-align: center;
     color: darkorange;
     font-weight: bold;
@@ -178,28 +201,18 @@ h1 {
     font-size: 1.5em;
 }
 
-.section-6 .form-control {
-    width: 55%;
-    align-items: left;
+.section-5 .form-control {
+    width: 75%;
+    align-items: center;
 }
 
-.section-6 .form-contact {
+.section-5 .form-contact {
     margin-bottom: 0.5rem;
     margin-top: 0.5rem;
 }
 
-.section-6 .form-mantra {
-    margin-bottom: 0.5rem;
-    align-items: left;
-}
-
-.section-6 .button-message {
-    margin-bottom: 15px;
-    background-color: darkorange;
-    color: white;
-}
-
-.section-6 .button-mantra {
+.section-5 .button-message {
+    margin-top: 15px;
     margin-bottom: 15px;
     background-color: darkorange;
     color: white;
