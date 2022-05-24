@@ -60,7 +60,7 @@ const handlePostRequest = (request: Request, response: Response) => {
         text: message
     }
 
-    mailgunClient.messages.create(process.env.MAILGUN_DOMAIN, mailgun)
+    mailgunClient.messages.create(process.env.MAILGUN_DOMAIN, mailgunData)
         .then((msg: any) =>
         response.send(
             `<div class='alert alert-success' role='alert'>Email successfully sent.</div>`
