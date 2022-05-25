@@ -1,16 +1,17 @@
 /*Body background*/
 body {
-    background-color: navajowhite;
+    background-color: #ffebcc;
 }
 
-div#wrapper {
-    border-left: 8px solid darkorange;
-    border-right: 8px solid darkorange;
-    width: 1400px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffebcc;
+/*Wrapper*/
+.container {
+    margin: auto;
+    /*border-left: 8px solid darkorange;
+    border-right: 8px solid darkorange;*/
+}
+
+.no-padding {
+    padding: 0 !important;
 }
 
 /*Navigation Bar container*/
@@ -37,8 +38,7 @@ div#wrapper {
 }
 
 /*Lord Ganesha Section Parallax*/
-@media screen and (min-width: 480px) {
-    .parallax {
+.parallax {
     background-image: url(../images/Ganesha.jpg);
     height: 950px;
     background-attachment: fixed;
@@ -46,7 +46,6 @@ div#wrapper {
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom: 8px double darkorange;
-    }
 }
 
 .top-heading h1 {
@@ -79,38 +78,20 @@ div#wrapper {
 }
 
 /*Section-2 "India" image and quote-2*/
-.column {
-    float: left;
-    width: 50%;
+.section-2 {
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
 
-p {
-    text-align: center;
-    font-family: Abhya l;
-    font-weight: bold;
-    color: darkorange;
-    font-size: 2em;
-    font-style: italic;
-    display: block;
-    margin: 65px;
-}
-
-/* Clearfix*/
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-"quote-2.png" {
-    padding-right: 15px;
+img[src="images/quote-2.png"] {
+    border-top: 8px dotted darkorange;
+    border-bottom: 8px double darkorange;
 }
 
 /*Section-3*/
 .section-3 {
     background-color: lightblue;
+    padding-bottom: 15px;
     border-top: 8px dotted darkorange;
     border-bottom: 8px double darkorange;
 }
@@ -139,10 +120,11 @@ p {
 
 .card {
     box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
-    height:498px;
-    width: 449.2px;
+    /*height:498px;
+    width: 449.2px;*/
     display: flex;
     justify-content: center;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -156,11 +138,15 @@ p {
 }
 
 /*Section-4*/
-.section-4 .container-fluid {
+.section-4 {
     background-color: navajowhite;
     border-bottom: 8px double darkorange;
     border-top: 8px dotted darkorange;
     text-align: center;
+}
+
+.section-4 h1 {
+    padding-top: 15px;
 }
 
 .section-4 .rounded-circle {
@@ -173,8 +159,10 @@ p {
 
 .section-4 .about-me p {
     text-align: center;
+    padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
+    font-family: sans-serif;
 }
 
 /*Section-5*/
@@ -199,11 +187,16 @@ h1 {
     font-weight: bold;
     font-style: italic;
     font-size: 1.5em;
+    padding-top: 15px;
+}
+
+.section-5 .container {
+    margin: auto;
+    align-content: center;
 }
 
 .section-5 .form-control {
-    width: 75%;
-    align-items: center;
+    width: 65%;
 }
 
 .section-5 .form-contact {
@@ -225,5 +218,5 @@ h1 {
     font-style: italic;
     font-size: 1.5em;
     text-align: center;
-    padding: 1rem;
+    padding: 0.1rem;
 }
