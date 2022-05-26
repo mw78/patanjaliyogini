@@ -38,7 +38,8 @@ body {
 /*Lord Ganesha Section Parallax*/
 .parallax {
     background-image: url(../images/Ganesha.jpg);
-    height: 950px;
+    /*height: 950px;*/
+    object-fit: cover;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -111,15 +112,13 @@ img[src="images/quote-2.png"] {
     font-size: 1.5em;
 }
 
+/*To reduce stretching of images in mobile!!*/
 .card-img-top {
-    width: auto;
-    height: auto;
+    object-fit: cover;
 }
 
 .card {
     box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
-    /*height:498px;
-    width: 449.2px;*/
     display: flex;
     justify-content: center;
     padding: 15px;
