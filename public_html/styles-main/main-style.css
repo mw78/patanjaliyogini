@@ -165,6 +165,11 @@ img[src="images/quote-2.png"] {
     font-family: sans-serif;
 }
 
+.section-4 .about-me a:hover {
+    background-color: darkorange;
+    font-family: sans-serif;
+}
+
 /*Section-5*/
 .section-5 {
     background-color: lightblue;
@@ -190,11 +195,6 @@ h1 {
     padding-top: 15px;
 }
 
-.section-5 .container {
-    margin: auto;
-    align-content: center;
-}
-
 .section-5 .form-control {
     width: 65%;
 }
@@ -209,6 +209,11 @@ h1 {
     margin-bottom: 15px;
     background-color: darkorange;
     color: white;
+    border: 1px solid white;
+}
+
+.section-5 .button-message:hover {
+    background-color: lightseagreen;
 }
 
 /*Footer Section*/
