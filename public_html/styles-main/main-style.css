@@ -38,8 +38,7 @@ body {
 /*Lord Ganesha Section Parallax*/
 .parallax {
     background-image: url(../images/Ganesha.jpg);
-    /*height: 950px;*/
-    object-fit: cover;
+    height: 950px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
